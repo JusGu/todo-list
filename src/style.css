@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+#page{
+    width: 794px;
+    height: 1123px;
+    background-color: #ffffff;
+    color: #262425;
+    padding: 2rem;
+    box-shadow: 14px 17px 45px 0px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 14px 17px 45px 0px rgba(0,0,0,0.47);
+    -moz-box-shadow: 14px 17px 45px 0px rgba(0,0,0,0.47);
+}
+
+#header > span {
+    font-weight: normal;
+}
+#divider{
+    border-top: 5px solid #2e2e2e;
+    height: 0px;
+}
+#title{
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    width: calc(100% - 2rem);
+}
+
+#title:focus{
+    outline: none;
+}
+
+#lines{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 0.5fr 10fr 0.5fr 3fr;
+    grid-template-rows: repeat(31, 1fr);
+    
+
+}
+
+.status{
+    border-top: 1px solid #262425;
+    border-bottom: 1px solid #262425;
+}
+
+#status0{
+    border-top: 1.5px solid #262425;
+}
+
+#description0{
+    border-top: 1.5px solid #262425;
+}
+
+#dueDate0{
+    border-top: 1.5px solid #262425;
+}
+
+#status30{
+    border-bottom: 1.5px solid #262425;
+}
+#description30{
+    border-bottom: 1.5px solid #262425;
+}
+#dueDate30{
+    border-bottom: 1.5px solid #262425;
+}
+
+.description{
+    border: 1px solid #262425;
+    border-right: none;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.5rem;
+}
+.description:focus{
+    outline: none;
+}
+.dueDate {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-top: 1px solid #262425;
+    border-bottom: 1px solid #262425;
+}
+
+.dueDate:focus{
+    outline: none;
+}
+
+
+.space{
+    border: none;
+}
