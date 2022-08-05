@@ -50,34 +50,12 @@ body{
 
 .status{
     border-top: 1px solid #262425;
-    border-bottom: 1px solid #262425;
-}
-
-#status0{
-    border-top: 1.5px solid #262425;
-}
-
-#description0{
-    border-top: 1.5px solid #262425;
-}
-
-#dueDate0{
-    border-top: 1.5px solid #262425;
-}
-
-#status30{
-    border-bottom: 1.5px solid #262425;
-}
-#description30{
-    border-bottom: 1.5px solid #262425;
-}
-#dueDate30{
-    border-bottom: 1.5px solid #262425;
 }
 
 .description{
     border: 1px solid #262425;
     border-right: none;
+    border-bottom: none;
     font-family: 'Montserrat', sans-serif;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
@@ -85,19 +63,27 @@ body{
 }
 .description:focus{
     outline: none;
+    background-color: rgba(0,0,0,0.2);
 }
+
 .dueDate {
     font-family: 'Montserrat', sans-serif;
     border: none;
     border-top: 1px solid #262425;
-    border-bottom: 1px solid #262425;
 }
 
 .dueDate:focus{
     outline: none;
+    background-color: rgba(0,0,0,0.2);
 }
-
+.dueDate:disabled{
+    background-color: #ffffff;
+}
 
 .space{
     border: none;
+}
+
+#status30, #description30, #dueDate30{
+    border-bottom: 1px solid #262425;
 }

@@ -40,6 +40,7 @@ function createPage (){
         const dueDate = document.createElement('input');
         dueDate.setAttribute('id', `dueDate${i}`);
         dueDate.classList.add('dueDate');
+        dueDate.disabled = true;
         lines.appendChild(dueDate);
     }
     page.appendChild(lines);
